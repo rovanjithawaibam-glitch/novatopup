@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NovaTopUp</title>
+<style>
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#0b0b0b;
+  color:white;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  background:#111;
+  border-bottom:1px solid #222;
+}
+.logo{
+  color:#00e5ff;
+  font-size:28px;
+  font-weight:bold;
+}
+.hero{
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(135deg,#001f2f,#14002b,#001a33);
+}
+.hero h1{
+  font-size:55px;
+  margin-bottom:10px;
+}
+.hero p{
+  color:#aaa;
+  font-size:20px;
+}
+.btn{
+  background:#00e5ff;
+  color:black;
+  padding:14px 30px;
+  border:none;
+  border-radius:12px;
+  font-size:18px;
+  margin-top:20px;
+  cursor:pointer;
+  font-weight:bold;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:40px;
+}
+.card{
+  background:#151515;
+  border:1px solid #222;
+  border-radius:20px;
+  padding:20px;
+  text-align:center;
+}
+.card h2{
+  color:#00e5ff;
+}
+.price{
+  font-size:28px;
+  margin:15px 0;
+}
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:1px solid #222;
+  color:#888;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">NovaTopUp</div>
+  <div>Gaming Store</div>
+</header>
+
+<section class="hero">
+  <h1>Instant Gaming Top-Ups</h1>
+  <p>Fast • Secure • Affordable UC & Diamonds</p>
+  <button class="btn">Buy Now</button>
+</section>
+
+<section class="products">
+
+  <div class="card">
+    <h2>BGMI 60 UC</h2>
+    <div class="price">₹75</div>
+    <button class="btn">Purchase</button>
+  </div>
+
+  <div class="card">
+    <h2>BGMI 325 UC</h2>
+    <div class="price">₹399</div>
+    <button class="btn">Purchase</button>
+  </div>
+
+  <div class="card">
+    <h2>Free Fire 520 Diamonds</h2>
+    <div class="price">₹420</div>
+    <button class="btn">Purchase</button>
+  </div>
+
+  <div class="card">
+    <h2>COD Mobile 420 CP</h2>
+    <div class="price">₹349</div>
+    <button class="btn">Purchase</button>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 NovaTopUp • All Rights Reserved
+</footer>
+
+</body>
+</html>
